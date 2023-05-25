@@ -20,17 +20,19 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
-                            is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
-                            Here are a few technologies I’ve been working with recently:
+                            Hello there! I'm a JavaScript Full Stack Freelancer with extensive experience in front-end and back-end development. My expertise in modern frameworks and server-side technologies enables me to deliver top-quality solutions that meet the unique needs of each project. <br /> <br />
+                            I'm committed to delivering high-quality code on time and within budget, ensuring that each project is completed to the highest standard. My attention to detail is second to none, and I take pride in delivering clean, efficient code that is easy to maintain and scale.<br /> <br />
+                            Whether you're looking to build a dynamic and responsive website, a robust web application, or anything in between, I have the skills and experience to bring your ideas to life. My proficiency in HTML, CSS, JavaScript, and popular frameworks like React.js and Node.js enables me to create seamless web experiences that provide a flawless user experience.<br /> <br />
+                            I'm a passionate problem-solver and enjoy finding creative solutions to complex challenges. As a team player, I thrive on collaborating with others to achieve a common goal. I'm committed to staying up-to-date with the latest trends and technologies in the industry, ensuring that each project I work on is built with the most cutting-edge tools and techniques. <br /> <br />
+                            If you're looking for a dedicated and experienced JavaScript Full Stack Freelancer to bring your web projects to life, look no further. Let's work together to create exceptional web experiences that exceed your expectations!<br /> <br />
+                            Here are a few technologies I’ve expertise with recently:
                         </p>
                         <ul className="about__list">
                             <li>JavaScript (ES6+)</li>
                             <li>TypeScript</li>
                             <li>React</li>
                             <li>Node.js</li>
-                            <li>Postgres SQL</li>
+                            <li>MongoDB</li>
                             <li>NestJS</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
