@@ -8,23 +8,23 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "Responsive design",
+        title: "FrontEnd Development",
         description:
-            "Ensuring that the website/mobile app is responsive across all platforms",
+            "Professional frontend development service delivering intuitive and visually appealing user interfaces for seamless digital experiences.",
     },
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "Backend Development",
         description:
-            "Ensuring that that a website meets the correct standards, and also ensuring it's well maintained",
+            "Efficient and scalable backend development solutions to power your digital applications with robust functionality and seamless data management.",
     },
     {
         id: 3,
         image: Image3,
-        title: "Mobile Development",
+        title: "FullStack Development",
         description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+            "Comprehensive Fullstack Development service offering end-to-end expertise in front-end and back-end technologies for seamless web and application development",
     },
 ];
 

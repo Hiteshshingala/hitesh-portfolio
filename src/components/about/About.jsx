@@ -31,11 +31,15 @@ const About = () => {
                             <li>JavaScript (ES6+)</li>
                             <li>TypeScript</li>
                             <li>React</li>
+                            <li>Angular</li>
                             <li>Node.js</li>
-                            <li>MongoDB</li>
                             <li>NestJS</li>
+                            <li>MongoDB</li>
+                            <li>Redis</li>
+                            <li>RabbitMQ</li>
+                            <li>GraphQL</li>
                         </ul>
-                        <button className="btn" onClick={downloadResume}>Donwload CV</button>
+                        <button className="btn" onClick={downloadResume}>Download CV</button>
                     </div>
 
                     {/* <div className="about__skills grid">
