@@ -53,7 +53,7 @@ const Portfolio = () => {
                             className="portfolio__card"
                             key={id}>
                             <div className="portfolio__thumbnail">
-                                <img src={image} alt="" className="portfolio__img" />
+                                <img src={image} alt={`${title} - ${category.join(', ')} project`} className="portfolio__img" />
                                 <div className="portfolio__mask"></div>
                             </div>
 

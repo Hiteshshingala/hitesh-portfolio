@@ -20,7 +20,28 @@ function App() {
         const newTheme = theme === 'light' ? 'dark' : 'light';
         setTheme(newTheme);
     }
+    const metaTags = [
+        { name: 'description', content: 'Hitesh Shingala - Full Stack Developer Portfolio' },
+        { name: 'keywords', content: 'Hitesh Shingala, Full Stack Developer, Portfolio, JavaScript, React, Node.js' },
+        { name: 'author', content: 'Hitesh Shingala' },
+        { property: 'og:title', content: 'Hitesh Shingala - Full Stack Developer' },
+        { property: 'og:description', content: 'Welcome to the portfolio of Hitesh Shingala, a Full Stack Developer specializing in JavaScript, React, and Node.js.' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://hiteshshingala.github.io/portfolio' },
+        { property: 'og:image', content: 'https://hiteshshingala.github.io/portfolio/static/media/avatar-2.1f6228396273619645be.png' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Hitesh Shingala - Full Stack Developer' },
+        { name: 'twitter:description', content: 'Welcome to the portfolio of Hitesh Shingala, a Full Stack Developer specializing in JavaScript, React, and Node.js.' },
+        { name: 'twitter:image', content: 'https://your-portfolio-url.com/twitter-image.jpg' }
+    ];
 
+    metaTags.forEach(tag => {
+        const meta = document.createElement('meta');
+        Object.keys(tag).forEach(key => {
+            meta.setAttribute(key, tag[key]);
+        });
+        document.head.appendChild(meta);
+    });
     return (
         <div className="app" data-theme={theme}>
             <Sidebar theme={theme} switchTheme={switchTheme} />
