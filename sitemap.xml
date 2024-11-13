@@ -6,27 +6,27 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://hiteshshingala.github.io/portfolio/about</loc>
+        <loc>https://hiteshshingala.github.io/portfolio/#about</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hiteshshingala.github.io/portfolio/services</loc>
+        <loc>https://hiteshshingala.github.io/portfolio/#services</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hiteshshingala.github.io/portfolio/resume</loc>
+        <loc>https://hiteshshingala.github.io/portfolio/#resume</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hiteshshingala.github.io/portfolio/portfolio</loc>
+        <loc>https://hiteshshingala.github.io/portfolio/#portfolio</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hiteshshingala.github.io/portfolio/blog</loc>
+        <loc>https://hiteshshingala.github.io/portfolio/#blog</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hiteshshingala.github.io/portfolio/contact</loc>
+        <loc>https://hiteshshingala.github.io/portfolio/#contact</loc>
         <priority>0.8</priority>
     </url>
 </urlset>

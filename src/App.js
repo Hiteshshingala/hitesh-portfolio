@@ -9,7 +9,8 @@ import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
-import useLocalStorage from 'use-local-storage'
+import useLocalStorage from 'use-local-storage';
+import { useEffect } from 'react';
 
 
 function App() {
@@ -42,6 +43,13 @@ function App() {
         });
         document.head.appendChild(meta);
     });
+
+    useEffect(() => {
+        const canonicalLink = document.createElement('link');
+        canonicalLink.rel = 'canonical';
+        canonicalLink.href = window.location.href;
+        document.head.appendChild(canonicalLink);
+    }, []);
     return (
         <div className="app" data-theme={theme}>
             <Sidebar theme={theme} switchTheme={switchTheme} />
