@@ -32,8 +32,8 @@ function App() {
         { property: 'og:image', content: 'https://hiteshshingala.github.io/portfolio/static/media/avatar-2.1f6228396273619645be.png' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Hitesh Shingala - Full Stack Developer' },
-        { name: 'twitter:description', content: 'Welcome to the portfolio of Hitesh Shingala, a Full Stack Developer specializing in JavaScript, React, and Node.js.' },
-        { name: 'twitter:image', content: 'https://your-portfolio-url.com/twitter-image.jpg' }
+        { name: 'twitter:description', content: 'Passionate software developer with 6 years of hands-on experience crafting elegant and efficient code. Transforming ideas into innovative solutions' },
+        { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_banners/1195694227927126016/1601190053/1500x500' }
     ];
 
     metaTags.forEach(tag => {
