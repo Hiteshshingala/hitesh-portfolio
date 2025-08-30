@@ -23,7 +23,7 @@ function App() {
     }
     const metaTags = [
         { name: 'description', content: 'Hitesh Shingala - Full Stack Developer Portfolio' },
-        { name: 'keywords', content: 'Hitesh Shingala, Full Stack Developer, Portfolio, JavaScript, React, Node.js' },
+        { name: 'keywords', content: 'Hitesh Shingala, Full Stack Developer, Portfolio, JavaScript, React, Node.js, Frontend Developer, Backend Developer, Web Development, Software Engineer, TypeScript, MongoDB, Express.js, HTML, CSS, API Development, React Native, Mobile Development, Database Design, UI/UX, Git, DevOps, AWS, Cloud Computing, Progressive Web Apps, RESTful Services, GraphQL, Software Architecture' },
         { name: 'author', content: 'Hitesh Shingala' },
         { property: 'og:title', content: 'Hitesh Shingala - Full Stack Developer' },
         { property: 'og:description', content: 'Welcome to the portfolio of Hitesh Shingala, a Full Stack Developer specializing in JavaScript, React, and Node.js.' },
