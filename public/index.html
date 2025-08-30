@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hitesh Shingala</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- Preload critical fonts for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Favicon and PWA icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Enhanced title with emojis for memorability -->
+    <title>🚀 Hitesh Shingala - Innovative Full Stack Developer | Digital Craftsman</title>
+    
+    <!-- Performance optimization -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" as="script" href="/static/js/bundle.js">
+    <link rel="preload" as="style" href="/static/css/main.css">
 </head>
     <body>
         <div id="root"></div>
+        
+        <!-- Add smooth scroll behavior and enhance user experience -->
+        <script>
+            // Add smooth scrolling and performance optimizations
+            document.documentElement.style.scrollBehavior = 'smooth';
+            
+            // Add intersection observer for animations
+            window.observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+        </script>
     </body>
 </html>
