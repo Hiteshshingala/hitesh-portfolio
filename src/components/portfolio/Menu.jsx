@@ -6,10 +6,18 @@ const Menu = [
     {
         id: 1,
         image: Work1,
+        title: "Vships",
+        category: ["Backend", "NodeJS", "NextJS", "microfrontend"],
+        url: "https://vgrouplimited.com/our-brands/v-ships",
+        // repositoryUrl: "https://github.com/GregSithole/memories-project"
+    },
+    {
+        id: 1,
+        image: Work1,
         title: "Fornova Mobility",
         category: ["Backend", "NodeJS"],
         url: "https://www.fornova.com/mobility-intelligence",
-        repositoryUrl: "https://github.com/GregSithole/memories-project"
+        // repositoryUrl: "https://github.com/GregSithole/memories-project"
     },
     {
         id: 2,
