@@ -51,6 +51,35 @@ const Home = () => {
         }
     };
 
+   const itemVariantsUltraSmooth = {
+    hidden: { 
+        y: 30, 
+        opacity: 0,
+        scale: 0.95
+    },
+    visible: {
+        y: 0,
+        opacity: 1,
+        scale: 1,
+        transition: {
+            duration: 0.8,
+            ease: "easeOut",
+            opacity: { 
+                duration: 0.6,
+                ease: "easeOut" 
+            },
+            y: { 
+                duration: 0.8,
+                ease: [0.23, 1, 0.32, 1] 
+            },
+            scale: { 
+                duration: 0.8,
+                ease: "easeOut" 
+            }
+        }
+    }
+}; 
+
     const imageVariants = {
         hidden: { scale: 0, rotate: -180 },
         visible: {
@@ -114,10 +143,35 @@ const Home = () => {
                     <AnimatePresence mode="wait">
                         <motion.span
                             key={currentRole}
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            exit={{ opacity: 0, y: -20 }}
-                            transition={{ duration: 0.5 }}
+                            initial={{ 
+                                opacity: 0, 
+                                x: 200,
+                                scale: 0.8
+                            }}
+                            animate={{ 
+                                opacity: 1, 
+                                x: 0,
+                                scale: 1,
+                                transition: {
+                                    duration: 0.6,
+                                    ease: [0.23, 1, 0.32, 1],
+                                    x: { duration: 0.6, ease: [0.23, 1, 0.32, 1] },
+                                    opacity: { duration: 0.4, ease: "easeOut" },
+                                    scale: { duration: 0.5, ease: "easeOut" }
+                                }
+                            }}
+                            exit={{ 
+                                opacity: 0, 
+                                x: -200,
+                                scale: 0.8,
+                                transition: {
+                                    duration: 0.4,
+                                    ease: [0.76, 0, 0.24, 1],
+                                    x: { duration: 0.4, ease: [0.76, 0, 0.24, 1] },
+                                    opacity: { duration: 0.3, ease: "easeIn" },
+                                    scale: { duration: 0.3, ease: "easeIn" }
+                                }
+                            }}
                         >
                             I'm a {roles[currentRole]}
                         </motion.span>
