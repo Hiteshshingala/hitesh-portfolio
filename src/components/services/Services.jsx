@@ -8,23 +8,23 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "FrontEnd Development",
+        title: "React.js Frontend Development",
         description:
-            "Professional frontend development service delivering intuitive and visually appealing user interfaces for seamless digital experiences.",
+            "Expert React.js frontend development services creating responsive, interactive user interfaces with modern JavaScript, TypeScript, and cutting-edge web technologies for optimal user experiences.",
     },
     {
         id: 2,
         image: Image2,
-        title: "Backend Development",
+        title: "Node.js Backend Development",
         description:
-            "Efficient and scalable backend development solutions to power your digital applications with robust functionality and seamless data management.",
+            "Scalable Node.js backend development solutions building robust APIs, microservices, and server-side applications with Express.js, NestJS, MongoDB, and real-time functionality.",
     },
     {
         id: 3,
         image: Image3,
-        title: "FullStack Development",
+        title: "Full Stack JavaScript Development",
         description:
-            "Comprehensive Fullstack Development service offering end-to-end expertise in front-end and back-end technologies for seamless web and application development",
+            "Complete full stack JavaScript development services combining React.js frontend expertise with Node.js backend proficiency for end-to-end web application solutions and software engineering.",
     },
 ];
 
@@ -37,7 +37,7 @@ const Services = () => {
                 {data.map(({ id, image, title, description }) => {
                     return (
                         <div className="services__card" key={id}>
-                            <img src={image} alt='' className='services__img' width="80" />
+                            <img src={image} alt={`${title} - Professional Web Development Service`} className='services__img' width="80" />
 
                             <h3 className="services__title">{title}</h3>
                             <p className="services__description">{description}</p>

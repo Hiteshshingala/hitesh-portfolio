@@ -15,17 +15,17 @@ const About = () => {
             <h2 className="section__title">About Me </h2>
 
             <div className="about__container grid">
-                <img src={Image} alt="" className='about__img' />
+                <img src={Image} alt="Hitesh Shingala - Professional JavaScript Full Stack Developer" className='about__img' />
 
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello there! I'm a JavaScript Full Stack Freelancer with extensive experience in front-end and back-end development. My expertise in modern frameworks and server-side technologies enables me to deliver top-quality solutions that meet the unique needs of each project. <br /> <br />
-                            I'm committed to delivering high-quality code on time and within budget, ensuring that each project is completed to the highest standard. My attention to detail is second to none, and I take pride in delivering clean, efficient code that is easy to maintain and scale.<br /> <br />
-                            Whether you're looking to build a dynamic and responsive website, a robust web application, or anything in between, I have the skills and experience to bring your ideas to life. My proficiency in HTML, CSS, JavaScript, and popular frameworks like React.js and Node.js enables me to create seamless web experiences that provide a flawless user experience.<br /> <br />
-                            I'm a passionate problem-solver and enjoy finding creative solutions to complex challenges. As a team player, I thrive on collaborating with others to achieve a common goal. I'm committed to staying up-to-date with the latest trends and technologies in the industry, ensuring that each project I work on is built with the most cutting-edge tools and techniques. <br /> <br />
-                            If you're looking for a dedicated and experienced JavaScript Full Stack Freelancer to bring your web projects to life, look no further. Let's work together to create exceptional web experiences that exceed your expectations!<br /> <br />
-                            Here are a few technologies I’ve expertise with recently:
+                            Hello! I'm Hitesh Shingala, a professional JavaScript Full Stack Developer with extensive expertise in modern web development technologies. As a skilled software engineer, I specialize in building scalable web applications using React.js, Node.js, TypeScript, and cutting-edge JavaScript frameworks. <br /> <br />
+                            With years of experience as a full stack developer, I deliver high-performance web solutions that combine robust backend architecture with intuitive frontend user experiences. My expertise spans across React.js development, Node.js backend systems, TypeScript programming, and modern JavaScript ES6+ features. <br /> <br />
+                            As a freelance web developer, I create responsive websites, progressive web applications, and enterprise-level software solutions. My technical proficiency includes React.js for frontend development, Node.js and NestJS for backend services, MongoDB and Redis for database management, and GraphQL for efficient API development.<br /> <br />
+                            I'm passionate about clean code architecture, performance optimization, and implementing the latest web development best practices. My approach combines technical excellence with strong problem-solving skills, ensuring every project meets modern web standards and delivers exceptional user experiences. <br /> <br />
+                            Whether you need a React.js developer, Node.js specialist, or a complete full stack JavaScript solution, I bring the technical expertise and professional dedication to transform your ideas into powerful web applications. Let's collaborate to build your next successful digital product!<br /> <br />
+                            Core technologies and frameworks I specialize in:
                         </p>
                         <ul className="about__list">
                             <li>JavaScript (ES6+)</li>
